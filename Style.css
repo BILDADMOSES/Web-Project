@@ -1,0 +1,79 @@
+.boy {
+    color:gold;
+  } 
+.topnav {
+   float: right;
+   padding: 14px 16px;
+   background-color: gold;
+ }
+ body {
+ font-family: 'Poppins',Sans-serif;
+ font-size: 140%;
+ color: white;
+ background-image: url('college.jpg');
+ width: 80%;
+ margin:auto;
+ }
+ .home{
+ background-image: url('home.jpg');
+ background-repeat:no-repeat;
+ background-size: cover;
+
+ }
+ .courses{
+	 background-image: url('courses.jpg');
+ background-repeat:no-repeat;
+ background-size: cover;
+ }
+ .person{
+	 width: 100px;
+	 height: 100px;
+	 border-radius: 50%;
+	 display: flex;
+	 
+ }
+ .main_disp{
+	 display: flex;
+ }
+ .disp{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ color: white;
+ padding: 20px;
+ border: 2px solid; 
+ border-color: gold;
+ }
+ .contact{
+ background-image: url('https://images.unsplash.com/photo-1492462543947-040389c4a66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  background-repeat:no-repeat;
+ background-size: cover;
+ }
+ .inp{
+	 border-radius: 2px;
+	 width: 600px;
+	 font-size: 140%;
+	 background-color: rgba(50,50,50,0.3);
+ }
+ header{
+ padding: 30px;
+}
+section{
+padding: 40px;
+}
+/*
+footer{
+color: gold;
+padding: 20px;
+float: right;
+}
+header,section,footer{
+border-style: solid;
+border-color: yellow;
+border-radius:10px;
+}
+form{
+border-style:solid;
+border-color: white;
+color: gold;
+}*/

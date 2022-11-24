@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <link href="Style.css" rel="stylesheet" />
+        <title>
+            
+        </title>
+    </head>
+    <body>
+	<div style = "width:25%; background-color : rgba(212,175,55,.95); position: fixed; left: 0; height: 120%; display: none; postion: fixed" id = "bumbum">
+<button onclick = "SideClose()">&times;</button>
+<h2 style = "color: white font-family: 'Poppins'"> Menu </h2>
+	<ul>
+		<li><a href = "Home.html">Home </a></li>
+        <li><a href = "Courses.html">Courses</a></li>
+        <li><a href = "Contact.html">Contact</a></li>
+        <li><a href = "About.html">About</a>
+		</ul>
+
+</div>
+    
+	<input type= "button" onclick = "SideOpen()" value = "☰">	
+	
+    <header>
+      <div class = "topnav">
+        <a href = "Home.html">Home </a>
+        <a href = "Courses.html">Courses</a>
+        <a href = "Contact.html">Contact</a>
+        <a href = "About.html">About</a>
+        </div>
+        
+        <h1 class = "boy">Resnick College</h1>
+      </header>
+  
+  <body class = 'contact'>
+    
+      <h2 class = "boy">Request Info.</h1>
+    
+    
+<form>
+  <label for ="fname">First Name:</label><br/>
+  <input class= "inp" type = "text" id = "fname" name = "fname" placeholder ="Jane"><br/>
+  <label for ="lname">Last Name:</label><br/>
+  <input class = "inp" type ="text" id ="lname" name ="lname" placeholder ="Doe"><br/>
+  <label for ="phone">Phone:</label><br/>
+  <input class = "inp" type = "tel" id = "phone" name = "phone" placeholder = "123-456-789"><br/>
+  <label for ="email">Email:</label><br/>
+  <input class = "inp" type ="email" id = "email" name = "email" placeholder ="example@cat.com"><br/>
+  <br/>
+  <input style="background-color: gold; font-size: 140%; padding: 5px " type ="submit" value ="Submit">
+  </form>
+    
+    <footer>
+      <p>These details are private and won't be shared with third parties</p>
+    </footer>
+  </body>
+  <script src = "script.js"></script>	
+</html>
